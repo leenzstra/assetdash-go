@@ -1,0 +1,3 @@
+# file must be config.yaml
+
+token: <your assetdash auth token (example: eyJh...)>
