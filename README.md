@@ -1,6 +1,6 @@
 ## AssetDash automation
 
-### TOOO LIST
+### TODO LIST
 0. Refactor project structure
     - Add comments
     - Add packages
