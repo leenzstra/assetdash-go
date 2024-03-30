@@ -1,4 +1,4 @@
-package main
+package learn
 
 type CoursesResponse struct {
 	Courses []Course `json:"courses"`
@@ -16,8 +16,4 @@ type CourseStartResponse struct {
 
 type AnswerQuestionResponse struct {
 	CourseUser CourseUser `json:"course_user"`
-}
-
-type ArcadeGameSessionResponse struct {
-	ArcadeGameSession ArcadeGameSession `json:"arcade_game_session"`
 }

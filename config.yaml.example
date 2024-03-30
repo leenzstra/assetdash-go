@@ -1,3 +1,15 @@
 # file must be config.yaml
 
 token: <your assetdash auth token (example: eyJh...)>
+
+endpoints:
+  baseUrl: https://mobile-api.assetdash.com
+
+  coursesList: web/learn/courses
+  courseInfo: web/learn/course
+  coursesListStarted: web/learn/course-started
+  startCourse: web/learn/course/start
+  answerQuestion: web/learn/course/answer-question
+
+  startArcade: api/api_v4/games/arcade/games/start_session
+  completeArcade: api/api_v4/games/arcade/games/complete_session

@@ -1,4 +1,4 @@
-package main
+package learn
 
 type Course struct {
 	ID                       string `json:"id"`
@@ -83,14 +83,4 @@ type CourseInfo struct {
 type CourseUser struct {
 	CourseID         string `json:"course_id"`
 	CourseQuestionID string `json:"course_question_id"`
-}
-
-type ArcadeGameSession struct {
-	ID           string `json:"id"`
-	Created      string `json:"created"`
-	StartTime    string `json:"start_time"`
-	EndTime      string `json:"end_time"`
-	ArcadeGameID string `json:"arcade_game_id"`
-	SpentCoins   int    `json:"spent_coins"`
-	EarnedCoins  int    `json:"earned_coins"`
 }
